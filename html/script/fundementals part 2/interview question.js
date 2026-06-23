@@ -43,3 +43,11 @@ const [{id,name,price},,{price:price3,name:name3,id:id3}] = products
 
 console.log(id,name,price);
 console.log(id3,name3,price3);
+
+
+//Lets increase the price by 10% for every product
+for(let product of products){
+    product.price=product.price*0.10+product.price
+}
+
+console.log(products);
