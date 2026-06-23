@@ -67,16 +67,3 @@ let strFruits = fruits.join(", ");
 console.log("fruit array as string",strFruits);
 console.log(typeof strFruits);
 
-//premitiv and non premitiv data types
-
-//primitive data types  - value cannot change
-//string
-let name = "John";
-//number
-let age = 25;
-//boolean
-let isStudent = true;
-//null
-//undefined
-//objects
-//functions
